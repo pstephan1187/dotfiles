@@ -1,0 +1,17 @@
+#!/usr/bin/bash
+
+alias ..="cd .."
+alias ..ls="cd .. && ls -alh"
+alias art='php artisan'
+alias domains='code /etc/hosts ~/Homestead/Homestead.yaml'
+alias l="ls -alh"
+alias pu='./vendor/bin/phpunit'
+alias reload="source ~/.bash_profile"
+alias serve='php -S localhost:8000'
+alias update='source "$DOTFILES_DIR/update.sh"'
+
+# List declared aliases, functions, paths
+
+alias aliases="alias | sed 's/=.*//'"
+alias functions="declare -f | grep '^[a-z].* ()' | sed 's/{$//'"
+alias paths='echo -e ${PATH//:/\\n}'
