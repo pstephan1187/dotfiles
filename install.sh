@@ -21,7 +21,8 @@ done
 ln -sv "$DOTFILES_DIR/.bash_profile" ~
 ln -sv "$DOTFILES_DIR/.inputrc" ~
 ln -sv "$DOTFILES_DIR/.gitconfig" ~
+ln -sv "$DOTFILES_DIR/.vimrc" ~
 
 source "~/.bash_profile"
 source "~/.inputrc"
-source "~/.gitconfig"
+source "~/.vimrc"
