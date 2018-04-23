@@ -2,6 +2,7 @@
 
 brew cask install 1password \
 blocs \
+coda \
 adobe-creative-cloud \
 firefox \
 font-fira-code \
